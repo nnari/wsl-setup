@@ -3,6 +3,9 @@
 # Install applications
 # Comment (with #) what should not be installed and add the applications you want to install.
 
+source ./install/utils.sh	
+keep_sudo_alive
+
 # Update Ubuntu
 sudo apt update
 sudo apt upgrade -y
